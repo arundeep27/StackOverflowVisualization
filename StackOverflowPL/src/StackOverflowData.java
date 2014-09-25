@@ -11,6 +11,8 @@ public class StackOverflowData {
 
 	//https://api.stackexchange.com/2.2/tags?site=stackoverflow	
 
+
+	//gets the json from api data and writes it into a file 
 	public static void readUrl(String urlString, String path) throws Exception {
 		BufferedReader reader = null;		
 		BufferedWriter writer=null;
